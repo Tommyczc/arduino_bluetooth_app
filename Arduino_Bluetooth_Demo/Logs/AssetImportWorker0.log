@@ -15,11 +15,11 @@ D:/Github_personal_file/arduino_bluetooth_app/Arduino_Bluetooth_Demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59368
+50995
 Successfully changed project path to: D:/Github_personal_file/arduino_bluetooth_app/Arduino_Bluetooth_Demo
 D:/Github_personal_file/arduino_bluetooth_app/Arduino_Bluetooth_Demo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1c1 (548653c6c3de)
 [Subsystems] Discovering subsystems at path D:/2020.3.5f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,568 @@ Initialize mono
 Mono path[0] = 'D:/2020.3.5f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/2020.3.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/2020.3.5f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2020.3.5f1c1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/2020.3.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001395 seconds.
+Registered in 0.001302 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 36.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.190 seconds
+- Completed reload, in  2.007 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003734 seconds.
+Registered in 0.004217 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 35.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  0.955 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.8 MB.
-System memory in use after: 94.9 MB.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.3 MB.
+System memory in use after: 95.4 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2508.
-Total: 2.345200 ms (FindLiveObjects: 0.275300 ms CreateObjectMapping: 0.144700 ms MarkObjects: 1.862400 ms  DeleteObjects: 0.061800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(734857c766562dc47940eee4d26d79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(734857c766562dc47940eee4d26d79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39874b5fa4d816c1e8614c149ea02b64') in 0.006205 seconds
-  Import took 0.009488 seconds .
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2522.
+Total: 2.843000 ms (FindLiveObjects: 0.463200 ms CreateObjectMapping: 0.273300 ms MarkObjects: 2.047700 ms  DeleteObjects: 0.057800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.669439 seconds.
-  path: Assets/Shatalmic
-  artifactKey: Guid(7bdbb4f595e849146987ed4f300663eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic using Guid(7bdbb4f595e849146987ed4f300663eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e7226cbae99c43723d2a1b380344aa') in 0.004184 seconds
-  Import took 0.007277 seconds .
+  path: Assets/Shatalmic/Example/MultipleLevels/Level1Script.cs
+  artifactKey: Guid(81d73d1c7075d4530babd08b0f0bd6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/MultipleLevels/Level1Script.cs using Guid(81d73d1c7075d4530babd08b0f0bd6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b02a0f3640c7640c2f1489779523c4') in 0.037606 seconds
+  Import took 0.040707 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009376 seconds.
-  path: Assets/Shatalmic
-  artifactKey: Guid(7bdbb4f595e849146987ed4f300663eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic using Guid(7bdbb4f595e849146987ed4f300663eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e7226cbae99c43723d2a1b380344aa') in 0.002672 seconds
-  Import took 0.005518 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/Shatalmic/Example/MultipleLevels
+  artifactKey: Guid(1095cb2a174a54f578938b955166fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/MultipleLevels using Guid(1095cb2a174a54f578938b955166fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770e41a4f27d763deebc83283443f8c0') in 0.003209 seconds
+  Import took 0.006165 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.222419 seconds.
-  path: Assets/Shatalmic/plugin.unitypackage
-  artifactKey: Guid(1a70f37e2f13e4df0ac477f3c3eb451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/plugin.unitypackage using Guid(1a70f37e2f13e4df0ac477f3c3eb451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e3d2b0c6b1d31491da65840449f86c') in 0.027852 seconds
-  Import took 0.030870 seconds .
+  Time since last request: 0.000177 seconds.
+  path: Assets/Shatalmic/Example
+  artifactKey: Guid(a0f9eeb35659740279848981d7e33d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example using Guid(a0f9eeb35659740279848981d7e33d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e6a5ef3fb0f2acb8ca7e70d83967b1') in 0.003530 seconds
+  Import took 0.006094 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.9 MB.
+System memory in use after: 54.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2522.
+Total: 2.034600 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.091800 ms MarkObjects: 1.702600 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.449726 seconds.
+  path: Assets/Shatalmic/Example/MultipleLevels/Level2Script.cs
+  artifactKey: Guid(0868231bf7f8c4492ad338f363a3ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/MultipleLevels/Level2Script.cs using Guid(0868231bf7f8c4492ad338f363a3ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb3ecd968b7f9bfd914e592995d2840') in 0.004022 seconds
+  Import took 0.007541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004998 seconds.
+  path: Assets/Shatalmic/Example/MultipleLevels/Level2Script.cs
+  artifactKey: Guid(0868231bf7f8c4492ad338f363a3ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/MultipleLevels/Level2Script.cs using Guid(0868231bf7f8c4492ad338f363a3ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb3ecd968b7f9bfd914e592995d2840') in 0.003316 seconds
+  Import took 0.006528 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003327 seconds.
+Registered in 0.003232 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.920 seconds
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2527.
+Total: 1.736600 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.073900 ms MarkObjects: 1.479400 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.384735 seconds.
+  path: Assets/script
+  artifactKey: Guid(b25cb505bd79a5545bf7a763c0edabac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script using Guid(b25cb505bd79a5545bf7a763c0edabac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054d1fe127a4a667a236f32ee082c565') in 0.005931 seconds
+  Import took 0.008866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002183 seconds.
+  path: Assets/script
+  artifactKey: Guid(b25cb505bd79a5545bf7a763c0edabac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script using Guid(b25cb505bd79a5545bf7a763c0edabac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054d1fe127a4a667a236f32ee082c565') in 0.003240 seconds
+  Import took 0.007023 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2531.
+Total: 1.982700 ms (FindLiveObjects: 0.210700 ms CreateObjectMapping: 0.088000 ms MarkObjects: 1.666700 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.346107 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(a74419d4ed92a43589e8b33362cf2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(a74419d4ed92a43589e8b33362cf2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd98bb72526715de93056f52de2ed35') in 0.007866 seconds
+  Import took 0.011695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007902 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(a74419d4ed92a43589e8b33362cf2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(a74419d4ed92a43589e8b33362cf2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd98bb72526715de93056f52de2ed35') in 0.003252 seconds
+  Import took 0.006216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.614977 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(6bcb86970c7ff4e08a5499891901f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(6bcb86970c7ff4e08a5499891901f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e81ca67d903c704803d462613c50aae') in 0.004070 seconds
+  Import took 0.006966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001634 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(6bcb86970c7ff4e08a5499891901f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(6bcb86970c7ff4e08a5499891901f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e81ca67d903c704803d462613c50aae') in 0.002794 seconds
+  Import took 0.005437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.100552 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e15b1d4f3dec7fdb44e4b68cb2247b') in 0.021019 seconds
+  Import took 0.024298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006073 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e15b1d4f3dec7fdb44e4b68cb2247b') in 0.004028 seconds
+  Import took 0.007924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.848384 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198347050f7dbac5af19bba06f573dba') in 0.003971 seconds
+  Import took 0.008086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002520 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198347050f7dbac5af19bba06f573dba') in 0.003451 seconds
+  Import took 0.006406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.853887 seconds.
+  path: Assets/Shatalmic/Example/ArduinoHM10Test
+  artifactKey: Guid(e20f0ba75b1964e6f91e927256eb6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/ArduinoHM10Test using Guid(e20f0ba75b1964e6f91e927256eb6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf73d381526e2013b67dc510729b0a7') in 0.004074 seconds
+  Import took 0.007219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001324 seconds.
+  path: Assets/Shatalmic/Example/ArduinoHM10Test
+  artifactKey: Guid(e20f0ba75b1964e6f91e927256eb6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/ArduinoHM10Test using Guid(e20f0ba75b1964e6f91e927256eb6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf73d381526e2013b67dc510729b0a7') in 0.003644 seconds
+  Import took 0.006520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.923500 seconds.
+  path: Assets/Shatalmic/Example/ArduinoHM10Test/ArduinoHM10Test.cs
+  artifactKey: Guid(c177b6c23895344cabf54b99d00b3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/ArduinoHM10Test/ArduinoHM10Test.cs using Guid(c177b6c23895344cabf54b99d00b3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed914403fb3de20c5eae9ded50edcbb') in 0.003256 seconds
+  Import took 0.006325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003986 seconds.
+  path: Assets/Shatalmic/Example/ArduinoHM10Test/ArduinoHM10Test.cs
+  artifactKey: Guid(c177b6c23895344cabf54b99d00b3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/ArduinoHM10Test/ArduinoHM10Test.cs using Guid(c177b6c23895344cabf54b99d00b3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed914403fb3de20c5eae9ded50edcbb') in 0.003259 seconds
+  Import took 0.006034 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003451 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 1.980300 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.080500 ms MarkObjects: 1.675000 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 1.930300 ms (FindLiveObjects: 0.198200 ms CreateObjectMapping: 0.082200 ms MarkObjects: 1.632100 ms  DeleteObjects: 0.016700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.001925 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5775a8cdffddaa4f5c97be92a67196b4') in 0.011903 seconds
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001033 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5775a8cdffddaa4f5c97be92a67196b4') in 0.002903 seconds
+  Import took 0.005592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.060009 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b27512c0f5d3e73bc21e5da4916ad86') in 0.003578 seconds
+  Import took 0.006774 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004071 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 1.828100 ms (FindLiveObjects: 0.177700 ms CreateObjectMapping: 0.077100 ms MarkObjects: 1.558600 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.3 MB.
-System memory in use after: 98.4 MB.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2527.
-Total: 1.750600 ms (FindLiveObjects: 0.156100 ms CreateObjectMapping: 0.065800 ms MarkObjects: 1.515400 ms  DeleteObjects: 0.012500 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 1.981300 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.080300 ms MarkObjects: 1.704600 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.039763 seconds.
+  path: Assets/Plugins/Android/unityandroidbluetoothlelib.jar
+  artifactKey: Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/unityandroidbluetoothlelib.jar using Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cfb35ece81964ce631e9ed954e4f2d') in 0.017492 seconds
+  Import took 0.020934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022481 seconds.
+  path: Assets/Plugins/Android/unityandroidbluetoothlelib.jar
+  artifactKey: Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/unityandroidbluetoothlelib.jar using Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cfb35ece81964ce631e9ed954e4f2d') in 0.004006 seconds
+  Import took 0.007217 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 1.811100 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.080700 ms MarkObjects: 1.525200 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.241301 seconds.
+  path: Assets/Shatalmic/Documentation
+  artifactKey: Guid(e909e63cd2d08421b8eb20bd0f6bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Documentation using Guid(e909e63cd2d08421b8eb20bd0f6bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdd3aff324573b7ab6ec567e1a99464') in 0.007001 seconds
+  Import took 0.010178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Shatalmic/Documentation
+  artifactKey: Guid(e909e63cd2d08421b8eb20bd0f6bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Documentation using Guid(e909e63cd2d08421b8eb20bd0f6bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdd3aff324573b7ab6ec567e1a99464') in 0.003409 seconds
+  Import took 0.006243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.167080 seconds.
+  path: Assets/Shatalmic/Documentation/Unity Bluetooth LE Plugin for Android.pdf
+  artifactKey: Guid(9d0ae6162b1584e1c831a59e1ca00807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Documentation/Unity Bluetooth LE Plugin for Android.pdf using Guid(9d0ae6162b1584e1c831a59e1ca00807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e40f9815d9d9ee1f68dab78773f6a7a') in 0.015661 seconds
+  Import took 0.018749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.184925 seconds.
+  path: Assets/Shatalmic/Documentation/Unity Bluetooth LE Plugin for iOS.pdf
+  artifactKey: Guid(6afd67adfd6b847968ad237eddbd5f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Documentation/Unity Bluetooth LE Plugin for iOS.pdf using Guid(6afd67adfd6b847968ad237eddbd5f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd2a35f60ed44ff444f455828e45669') in 0.004553 seconds
+  Import took 0.007808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.361407 seconds.
+  path: Assets/Plugins/BluetoothLEOSX.bundle
+  artifactKey: Guid(5383f7d08256547f6b36ee834b840062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/BluetoothLEOSX.bundle using Guid(5383f7d08256547f6b36ee834b840062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfdc89556f6e954e7a0a965c4f78871') in 0.007518 seconds
+  Import took 0.010644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042773 seconds.
+  path: Assets/Plugins/BluetoothLEOSX.bundle
+  artifactKey: Guid(5383f7d08256547f6b36ee834b840062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/BluetoothLEOSX.bundle using Guid(5383f7d08256547f6b36ee834b840062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfdc89556f6e954e7a0a965c4f78871') in 0.004102 seconds
+  Import took 0.007515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.778612 seconds.
+  path: Assets/Plugins/BluetoothLEOSX.bundle/Contents
+  artifactKey: Guid(34c7c97d38c834839be439bcf96a0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/BluetoothLEOSX.bundle/Contents using Guid(34c7c97d38c834839be439bcf96a0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b258eba6e1d8198d5a776349ef9adf4') in 0.003973 seconds
+  Import took 0.007262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001823 seconds.
+  path: Assets/Plugins/BluetoothLEOSX.bundle/Contents
+  artifactKey: Guid(34c7c97d38c834839be439bcf96a0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/BluetoothLEOSX.bundle/Contents using Guid(34c7c97d38c834839be439bcf96a0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b258eba6e1d8198d5a776349ef9adf4') in 0.003181 seconds
+  Import took 0.006131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.864499 seconds.
+  path: Assets/Plugins/BluetoothLEOSX.bundle/Contents/_CodeSignature
+  artifactKey: Guid(673293518de2c4fbf913749ebdb36dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/BluetoothLEOSX.bundle/Contents/_CodeSignature using Guid(673293518de2c4fbf913749ebdb36dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f258fce3bce05fdc5ee7f075d444b2d') in 0.003975 seconds
+  Import took 0.006876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008685 seconds.
+  path: Assets/Plugins/BluetoothLEOSX.bundle/Contents/_CodeSignature
+  artifactKey: Guid(673293518de2c4fbf913749ebdb36dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/BluetoothLEOSX.bundle/Contents/_CodeSignature using Guid(673293518de2c4fbf913749ebdb36dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f258fce3bce05fdc5ee7f075d444b2d') in 0.002863 seconds
+  Import took 0.005558 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.902 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 2.159400 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.076800 ms MarkObjects: 1.869900 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 642.093857 seconds.
+  path: Assets/Shatalmic/Editor
+  artifactKey: Guid(87247c18c42564aceaf454206a3ef873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Editor using Guid(87247c18c42564aceaf454206a3ef873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae58e8dc524b58c9c1798ccf582c926') in 0.006489 seconds
+  Import took 0.009748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005629 seconds.
+  path: Assets/Shatalmic/Editor
+  artifactKey: Guid(87247c18c42564aceaf454206a3ef873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Editor using Guid(87247c18c42564aceaf454206a3ef873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae58e8dc524b58c9c1798ccf582c926') in 0.002630 seconds
+  Import took 0.005410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003539 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 2.171600 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.068000 ms MarkObjects: 1.804700 ms  DeleteObjects: 0.035300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 1.915100 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.667100 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003500 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 1.969500 ms (FindLiveObjects: 0.162200 ms CreateObjectMapping: 0.068100 ms MarkObjects: 1.725800 ms  DeleteObjects: 0.012600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
