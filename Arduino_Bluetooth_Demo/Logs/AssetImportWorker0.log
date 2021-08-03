@@ -15,7 +15,7 @@ D:/Github_personal_file/arduino_bluetooth_app/Arduino_Bluetooth_Demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50995
+53894
 Successfully changed project path to: D:/Github_personal_file/arduino_bluetooth_app/Arduino_Bluetooth_Demo
 D:/Github_personal_file/arduino_bluetooth_app/Arduino_Bluetooth_Demo
 Using Asset Import Pipeline V2.
@@ -35,568 +35,899 @@ Initialize mono
 Mono path[0] = 'D:/2020.3.5f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/2020.3.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/2020.3.5f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2020.3.5f1c1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/2020.3.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001302 seconds.
+Registered in 0.001443 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 36.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.007 seconds
+- Completed reload, in  2.117 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004217 seconds.
+Registered in 0.003927 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 34.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
+- Completed reload, in  1.000 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.3 MB.
-System memory in use after: 95.4 MB.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2522.
-Total: 2.843000 ms (FindLiveObjects: 0.463200 ms CreateObjectMapping: 0.273300 ms MarkObjects: 2.047700 ms  DeleteObjects: 0.057800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Shatalmic/Example/MultipleLevels/Level1Script.cs
-  artifactKey: Guid(81d73d1c7075d4530babd08b0f0bd6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Example/MultipleLevels/Level1Script.cs using Guid(81d73d1c7075d4530babd08b0f0bd6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b02a0f3640c7640c2f1489779523c4') in 0.037606 seconds
-  Import took 0.040707 seconds .
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2524.
+Total: 2.080000 ms (FindLiveObjects: 0.245500 ms CreateObjectMapping: 0.109800 ms MarkObjects: 1.669800 ms  DeleteObjects: 0.054000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Shatalmic/Example/MultipleLevels
-  artifactKey: Guid(1095cb2a174a54f578938b955166fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Example/MultipleLevels using Guid(1095cb2a174a54f578938b955166fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770e41a4f27d763deebc83283443f8c0') in 0.003209 seconds
-  Import took 0.006165 seconds .
+  path: Assets/Shatalmic/README.txt
+  artifactKey: Guid(3465e0116537642f78e4b288b23c461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/README.txt using Guid(3465e0116537642f78e4b288b23c461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bcc0f16460d286986e5c82b3a778e6') in 0.027940 seconds
+  Import took 0.030857 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Shatalmic/Example
-  artifactKey: Guid(a0f9eeb35659740279848981d7e33d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Example using Guid(a0f9eeb35659740279848981d7e33d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e6a5ef3fb0f2acb8ca7e70d83967b1') in 0.003530 seconds
-  Import took 0.006094 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.9 MB.
-System memory in use after: 54.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2522.
-Total: 2.034600 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.091800 ms MarkObjects: 1.702600 ms  DeleteObjects: 0.023000 ms)
+  Time since last request: 15469.600814 seconds.
+  path: Assets/Plugins/Android/unityandroidbluetoothlelib.jar
+  artifactKey: Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/unityandroidbluetoothlelib.jar using Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cfb35ece81964ce631e9ed954e4f2d') in 0.007594 seconds
+  Import took 0.013400 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.449726 seconds.
-  path: Assets/Shatalmic/Example/MultipleLevels/Level2Script.cs
-  artifactKey: Guid(0868231bf7f8c4492ad338f363a3ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Example/MultipleLevels/Level2Script.cs using Guid(0868231bf7f8c4492ad338f363a3ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb3ecd968b7f9bfd914e592995d2840') in 0.004022 seconds
-  Import took 0.007541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004998 seconds.
-  path: Assets/Shatalmic/Example/MultipleLevels/Level2Script.cs
-  artifactKey: Guid(0868231bf7f8c4492ad338f363a3ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Example/MultipleLevels/Level2Script.cs using Guid(0868231bf7f8c4492ad338f363a3ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb3ecd968b7f9bfd914e592995d2840') in 0.003316 seconds
-  Import took 0.006528 seconds .
+  Time since last request: 0.027739 seconds.
+  path: Assets/Plugins/Android/unityandroidbluetoothlelib.jar
+  artifactKey: Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/unityandroidbluetoothlelib.jar using Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cfb35ece81964ce631e9ed954e4f2d') in 0.003600 seconds
+  Import took 0.006652 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003232 seconds.
+Registered in 0.003928 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.893 seconds
+- Completed reload, in  0.914 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.8 MB.
-System memory in use after: 94.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2527.
-Total: 1.736600 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.073900 ms MarkObjects: 1.479400 ms  DeleteObjects: 0.013700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.384735 seconds.
-  path: Assets/script
-  artifactKey: Guid(b25cb505bd79a5545bf7a763c0edabac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/script using Guid(b25cb505bd79a5545bf7a763c0edabac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054d1fe127a4a667a236f32ee082c565') in 0.005931 seconds
-  Import took 0.008866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002183 seconds.
-  path: Assets/script
-  artifactKey: Guid(b25cb505bd79a5545bf7a763c0edabac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/script using Guid(b25cb505bd79a5545bf7a763c0edabac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054d1fe127a4a667a236f32ee082c565') in 0.003240 seconds
-  Import took 0.007023 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003504 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.976 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.9 MB.
 System memory in use after: 95.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2531.
-Total: 1.982700 ms (FindLiveObjects: 0.210700 ms CreateObjectMapping: 0.088000 ms MarkObjects: 1.666700 ms  DeleteObjects: 0.016300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2528.
+Total: 1.915000 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.073400 ms MarkObjects: 1.653900 ms  DeleteObjects: 0.013200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 243.346107 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(a74419d4ed92a43589e8b33362cf2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(a74419d4ed92a43589e8b33362cf2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd98bb72526715de93056f52de2ed35') in 0.007866 seconds
-  Import took 0.011695 seconds .
+  Time since last request: 156.509981 seconds.
+  path: Assets/Shatalmic/Example/ScannerTest
+  artifactKey: Guid(14bf6a321cdcc44dba1feab5e864433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/ScannerTest using Guid(14bf6a321cdcc44dba1feab5e864433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee4b7ae5fe236a490b94bd116b9f6ab') in 0.006845 seconds
+  Import took 0.010698 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007902 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(a74419d4ed92a43589e8b33362cf2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(a74419d4ed92a43589e8b33362cf2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd98bb72526715de93056f52de2ed35') in 0.003252 seconds
-  Import took 0.006216 seconds .
+  Time since last request: 0.006415 seconds.
+  path: Assets/Shatalmic/Example/ScannerTest
+  artifactKey: Guid(14bf6a321cdcc44dba1feab5e864433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/ScannerTest using Guid(14bf6a321cdcc44dba1feab5e864433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee4b7ae5fe236a490b94bd116b9f6ab') in 0.003077 seconds
+  Import took 0.006203 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.614977 seconds.
-  path: Assets/Plugins/Android
-  artifactKey: Guid(6bcb86970c7ff4e08a5499891901f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android using Guid(6bcb86970c7ff4e08a5499891901f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e81ca67d903c704803d462613c50aae') in 0.004070 seconds
-  Import took 0.006966 seconds .
+  Time since last request: 0.038863 seconds.
+  path: Assets/Shatalmic/Example/ScannerTest/PanelItem.prefab
+  artifactKey: Guid(6de5bf0d34c144054a3f697f54620220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/ScannerTest/PanelItem.prefab using Guid(6de5bf0d34c144054a3f697f54620220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471e6609887869ab618d225826fe8cf6') in 0.040864 seconds
+  Import took 0.044182 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001634 seconds.
-  path: Assets/Plugins/Android
-  artifactKey: Guid(6bcb86970c7ff4e08a5499891901f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android using Guid(6bcb86970c7ff4e08a5499891901f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e81ca67d903c704803d462613c50aae') in 0.002794 seconds
-  Import took 0.005437 seconds .
+  Time since last request: 1.107988 seconds.
+  path: Assets/Shatalmic/Example/ScannerTest/ScannerTest.unity
+  artifactKey: Guid(2240b8b60c8f44aeea0ffe3c13ded6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/ScannerTest/ScannerTest.unity using Guid(2240b8b60c8f44aeea0ffe3c13ded6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ecd04f946d2bc9e1899f9818fee73d') in 0.004508 seconds
+  Import took 0.007307 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.100552 seconds.
-  path: Assets/Plugins/Android/AndroidManifest.xml
-  artifactKey: Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e15b1d4f3dec7fdb44e4b68cb2247b') in 0.021019 seconds
-  Import took 0.024298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006073 seconds.
-  path: Assets/Plugins/Android/AndroidManifest.xml
-  artifactKey: Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e15b1d4f3dec7fdb44e4b68cb2247b') in 0.004028 seconds
-  Import took 0.007924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.848384 seconds.
-  path: Assets/Plugins/Android/AndroidManifest.xml
-  artifactKey: Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198347050f7dbac5af19bba06f573dba') in 0.003971 seconds
-  Import took 0.008086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002520 seconds.
-  path: Assets/Plugins/Android/AndroidManifest.xml
-  artifactKey: Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(4abd69b18c4ab45ec976851430122248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198347050f7dbac5af19bba06f573dba') in 0.003451 seconds
-  Import took 0.006406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 280.853887 seconds.
-  path: Assets/Shatalmic/Example/ArduinoHM10Test
-  artifactKey: Guid(e20f0ba75b1964e6f91e927256eb6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Example/ArduinoHM10Test using Guid(e20f0ba75b1964e6f91e927256eb6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf73d381526e2013b67dc510729b0a7') in 0.004074 seconds
-  Import took 0.007219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001324 seconds.
-  path: Assets/Shatalmic/Example/ArduinoHM10Test
-  artifactKey: Guid(e20f0ba75b1964e6f91e927256eb6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Example/ArduinoHM10Test using Guid(e20f0ba75b1964e6f91e927256eb6d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf73d381526e2013b67dc510729b0a7') in 0.003644 seconds
-  Import took 0.006520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.923500 seconds.
-  path: Assets/Shatalmic/Example/ArduinoHM10Test/ArduinoHM10Test.cs
-  artifactKey: Guid(c177b6c23895344cabf54b99d00b3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Example/ArduinoHM10Test/ArduinoHM10Test.cs using Guid(c177b6c23895344cabf54b99d00b3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed914403fb3de20c5eae9ded50edcbb') in 0.003256 seconds
-  Import took 0.006325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003986 seconds.
-  path: Assets/Shatalmic/Example/ArduinoHM10Test/ArduinoHM10Test.cs
-  artifactKey: Guid(c177b6c23895344cabf54b99d00b3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Example/ArduinoHM10Test/ArduinoHM10Test.cs using Guid(c177b6c23895344cabf54b99d00b3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed914403fb3de20c5eae9ded50edcbb') in 0.003259 seconds
-  Import took 0.006034 seconds .
+  Time since last request: 0.000439 seconds.
+  path: Assets/Shatalmic/Example/ScannerTest/ScannerTest.unity
+  artifactKey: Guid(2240b8b60c8f44aeea0ffe3c13ded6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shatalmic/Example/ScannerTest/ScannerTest.unity using Guid(2240b8b60c8f44aeea0ffe3c13ded6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ecd04f946d2bc9e1899f9818fee73d') in 0.003733 seconds
+  Import took 0.007169 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003451 seconds.
+Registered in 0.004013 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.881 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 1.833100 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.073600 ms MarkObjects: 1.489000 ms  DeleteObjects: 0.098500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1218.841934 seconds.
+  path: Assets/script/Bluetooth_Connection.cs
+  artifactKey: Guid(e9fc5d11b046fd347944003a385688f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Bluetooth_Connection.cs using Guid(e9fc5d11b046fd347944003a385688f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7d712568bd764f6725b97d00a13782') in 0.011366 seconds
+  Import took 0.014575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006821 seconds.
+  path: Assets/script/Bluetooth_Connection.cs
+  artifactKey: Guid(e9fc5d11b046fd347944003a385688f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Bluetooth_Connection.cs using Guid(e9fc5d11b046fd347944003a385688f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7d712568bd764f6725b97d00a13782') in 0.002946 seconds
+  Import took 0.005739 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2058 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.6 MB.
+System memory in use after: 94.7 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2525.
+Total: 1.886500 ms (FindLiveObjects: 0.211000 ms CreateObjectMapping: 0.093000 ms MarkObjects: 1.564500 ms  DeleteObjects: 0.017200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 325.160102 seconds.
+  path: Assets/script/Bluetooth_Connection.cs
+  artifactKey: Guid(e9fc5d11b046fd347944003a385688f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Bluetooth_Connection.cs using Guid(e9fc5d11b046fd347944003a385688f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980cd27966c7a125356a7b2074e260d9') in 0.005248 seconds
+  Import took 0.018123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.967270 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004fe9b967ed0b53f20ad3a19a205b5b') in 0.010340 seconds
+  Import took 0.023402 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005248 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 2.035900 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.066200 ms MarkObjects: 1.673000 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1629.304338 seconds.
+  path: Assets/BluetoothAPI
+  artifactKey: Guid(dbecd0d2c816e9a49a1d53064c789339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI using Guid(dbecd0d2c816e9a49a1d53064c789339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81ad31b137f745dc88d5e93e991d23b') in 0.008044 seconds
+  Import took 0.020295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006898 seconds.
+  path: Assets/BluetoothAPI
+  artifactKey: Guid(dbecd0d2c816e9a49a1d53064c789339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI using Guid(dbecd0d2c816e9a49a1d53064c789339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81ad31b137f745dc88d5e93e991d23b') in 0.003603 seconds
+  Import took 0.006327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039560 seconds.
+  path: Assets/BluetoothAPI/wiring.png
+  artifactKey: Guid(fb8d04bd57cda42f2bac75f06ab65181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/wiring.png using Guid(fb8d04bd57cda42f2bac75f06ab65181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c035d37336217ae3e96c16db156aa42') in 0.152292 seconds
+  Import took 0.155832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.981673 seconds.
+  path: Assets/BluetoothAPI/Arduino Unity Plugin.pdf
+  artifactKey: Guid(ed79cf528c26f4756b9db107d2d8fc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Arduino Unity Plugin.pdf using Guid(ed79cf528c26f4756b9db107d2d8fc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e7afd4536253ec4826454b09363a4c') in 0.007857 seconds
+  Import took 0.010752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3334.022002 seconds.
+  path: Assets/BluetoothAPI/Samples
+  artifactKey: Guid(dc103282f67d248fabd71d871a52787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples using Guid(dc103282f67d248fabd71d871a52787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e4167cf8e7c3649a1daef6b1594791') in 0.004188 seconds
+  Import took 0.018693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/BluetoothAPI/Samples
+  artifactKey: Guid(dc103282f67d248fabd71d871a52787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples using Guid(dc103282f67d248fabd71d871a52787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e4167cf8e7c3649a1daef6b1594791') in 0.002860 seconds
+  Import took 0.006427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.505888 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes
+  artifactKey: Guid(7ff7e6c0bc08d427785c515c42c0eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes using Guid(7ff7e6c0bc08d427785c515c42c0eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d69ab12c69f988554bc77b2290eeae') in 0.003929 seconds
+  Import took 0.017630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes
+  artifactKey: Guid(7ff7e6c0bc08d427785c515c42c0eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes using Guid(7ff7e6c0bc08d427785c515c42c0eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d69ab12c69f988554bc77b2290eeae') in 0.003335 seconds
+  Import took 0.007152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.512281 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes/Scene 1.unity
+  artifactKey: Guid(fa8830eca63de4e79a5aa48bdee09ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes/Scene 1.unity using Guid(fa8830eca63de4e79a5aa48bdee09ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4c8b9f3c5ef7a74cf3bdfaaa7706ea') in 0.004778 seconds
+  Import took 0.018558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003318 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes/Scene 1.unity
+  artifactKey: Guid(fa8830eca63de4e79a5aa48bdee09ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes/Scene 1.unity using Guid(fa8830eca63de4e79a5aa48bdee09ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4c8b9f3c5ef7a74cf3bdfaaa7706ea') in 0.003400 seconds
+  Import took 0.007037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.117887 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes/Scene1.cs
+  artifactKey: Guid(f5ff52e9d20a945bbad991d34fa7cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes/Scene1.cs using Guid(f5ff52e9d20a945bbad991d34fa7cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2b7cbaab3829be36c68bb416dc5c7c') in 0.003879 seconds
+  Import took 0.007276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004578 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes/Scene1.cs
+  artifactKey: Guid(f5ff52e9d20a945bbad991d34fa7cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes/Scene1.cs using Guid(f5ff52e9d20a945bbad991d34fa7cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2b7cbaab3829be36c68bb416dc5c7c') in 0.002863 seconds
+  Import took 0.006211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.792658 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes/Scene2.cs
+  artifactKey: Guid(824d9cd8e70f84af38daa2c392dc60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes/Scene2.cs using Guid(824d9cd8e70f84af38daa2c392dc60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640f90ed239f653ecd0d328432e81e66') in 0.005802 seconds
+  Import took 0.012120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002211 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes/Scene2.cs
+  artifactKey: Guid(824d9cd8e70f84af38daa2c392dc60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes/Scene2.cs using Guid(824d9cd8e70f84af38daa2c392dc60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640f90ed239f653ecd0d328432e81e66') in 0.003586 seconds
+  Import took 0.006977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.677081 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes/Scene 2.unity
+  artifactKey: Guid(a2f5739327298406989dc4c695d5d57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes/Scene 2.unity using Guid(a2f5739327298406989dc4c695d5d57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6ef24d92a19a02afc0c8064139cce0') in 0.006391 seconds
+  Import took 0.009880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004333 seconds.
+  path: Assets/BluetoothAPI/Samples/2 Scenes/Scene 2.unity
+  artifactKey: Guid(a2f5739327298406989dc4c695d5d57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/2 Scenes/Scene 2.unity using Guid(a2f5739327298406989dc4c695d5d57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6ef24d92a19a02afc0c8064139cce0') in 0.003379 seconds
+  Import took 0.006745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.009617 seconds.
+  path: Assets/BluetoothAPI/Samples/Led On Off
+  artifactKey: Guid(756290eb7aa54472199b405e4435731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Led On Off using Guid(756290eb7aa54472199b405e4435731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d13f6e4dc326ea33ba93753e5b2de1a') in 0.004392 seconds
+  Import took 0.012769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004450 seconds.
+  path: Assets/BluetoothAPI/Samples/Led On Off
+  artifactKey: Guid(756290eb7aa54472199b405e4435731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Led On Off using Guid(756290eb7aa54472199b405e4435731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d13f6e4dc326ea33ba93753e5b2de1a') in 0.003284 seconds
+  Import took 0.006799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.056842 seconds.
+  path: Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs
+  artifactKey: Guid(762bc68ba8edb4cdb84f35854c9a65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs using Guid(762bc68ba8edb4cdb84f35854c9a65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2521f26be9533445269e89af4762efb') in 0.003898 seconds
+  Import took 0.006980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002346 seconds.
+  path: Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs
+  artifactKey: Guid(762bc68ba8edb4cdb84f35854c9a65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs using Guid(762bc68ba8edb4cdb84f35854c9a65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2521f26be9533445269e89af4762efb') in 0.003052 seconds
+  Import took 0.006512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 319.707851 seconds.
+  path: Assets/BluetoothAPI/Samples/Led On Off/LedOnOff.unity
+  artifactKey: Guid(a31f1d7db702e4002a7b6e75f1919f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Led On Off/LedOnOff.unity using Guid(a31f1d7db702e4002a7b6e75f1919f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5a9e65a330c54aeddf05a27caa01c4') in 0.005046 seconds
+  Import took 0.009013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003742 seconds.
+  path: Assets/BluetoothAPI/Samples/Led On Off/LedOnOff.unity
+  artifactKey: Guid(a31f1d7db702e4002a7b6e75f1919f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Led On Off/LedOnOff.unity using Guid(a31f1d7db702e4002a7b6e75f1919f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5a9e65a330c54aeddf05a27caa01c4') in 0.003692 seconds
+  Import took 0.007288 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2553.
+Total: 2.251800 ms (FindLiveObjects: 0.252400 ms CreateObjectMapping: 0.105500 ms MarkObjects: 1.837100 ms  DeleteObjects: 0.055300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 2.421700 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.088800 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2561.
+Total: 3.052000 ms (FindLiveObjects: 0.435700 ms CreateObjectMapping: 0.157800 ms MarkObjects: 2.386400 ms  DeleteObjects: 0.070500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 361.260646 seconds.
+  path: Assets/BluetoothAPI/Samples/Scan and Connect
+  artifactKey: Guid(1c346a0f6ca2040cab378982deeb58e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Scan and Connect using Guid(1c346a0f6ca2040cab378982deeb58e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d620e0adaf45d444d55f1058a644829') in 0.008762 seconds
+  Import took 0.023011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001956 seconds.
+  path: Assets/BluetoothAPI/Samples/Scan and Connect
+  artifactKey: Guid(1c346a0f6ca2040cab378982deeb58e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Scan and Connect using Guid(1c346a0f6ca2040cab378982deeb58e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d620e0adaf45d444d55f1058a644829') in 0.003717 seconds
+  Import took 0.006889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.202936 seconds.
+  path: Assets/BluetoothAPI/Samples/Scan and Connect/Scan and Connect.unity
+  artifactKey: Guid(65f67dcd1c24d424abe8483884202f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Scan and Connect/Scan and Connect.unity using Guid(65f67dcd1c24d424abe8483884202f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f48a014a0edc576d0bd2e6942776dc') in 0.010561 seconds
+  Import took 0.013946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.030513 seconds.
+  path: Assets/BluetoothAPI/Samples/Scan and Connect/ScanAndConnect.cs
+  artifactKey: Guid(efe7560300bc64918b34ad8319ae824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Scan and Connect/ScanAndConnect.cs using Guid(efe7560300bc64918b34ad8319ae824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57aade03f0d5ca82ba4556e22450b3f3') in 0.004916 seconds
+  Import took 0.018654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030709 seconds.
+  path: Assets/BluetoothAPI/Samples/Scan and Connect/ScanAndConnect.cs
+  artifactKey: Guid(efe7560300bc64918b34ad8319ae824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Scan and Connect/ScanAndConnect.cs using Guid(efe7560300bc64918b34ad8319ae824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57aade03f0d5ca82ba4556e22450b3f3') in 0.003392 seconds
+  Import took 0.007150 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.9 MB.
-System memory in use after: 95.0 MB.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2535.
-Total: 1.980300 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.080500 ms MarkObjects: 1.675000 ms  DeleteObjects: 0.017400 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2565.
+Total: 2.527700 ms (FindLiveObjects: 0.321400 ms CreateObjectMapping: 0.137400 ms MarkObjects: 2.048900 ms  DeleteObjects: 0.018200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004070 seconds.
+Registered in 0.005787 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  0.889 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.9 MB.
-System memory in use after: 95.0 MB.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2539.
-Total: 1.930300 ms (FindLiveObjects: 0.198200 ms CreateObjectMapping: 0.082200 ms MarkObjects: 1.632100 ms  DeleteObjects: 0.016700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 236.001925 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5775a8cdffddaa4f5c97be92a67196b4') in 0.011903 seconds
-  Import took 0.015217 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2569.
+Total: 1.909900 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.076400 ms MarkObjects: 1.552300 ms  DeleteObjects: 0.053300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001033 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5775a8cdffddaa4f5c97be92a67196b4') in 0.002903 seconds
-  Import took 0.005592 seconds .
+  Time since last request: 2801.278062 seconds.
+  path: Assets/BluetoothAPI/Materials
+  artifactKey: Guid(8808e947f00534b8fb431e2647609b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Materials using Guid(8808e947f00534b8fb431e2647609b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4536a178ed019f96ca564ccaac3066') in 0.007476 seconds
+  Import took 0.011000 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.060009 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b27512c0f5d3e73bc21e5da4916ad86') in 0.003578 seconds
+  Time since last request: 0.038928 seconds.
+  path: Assets/BluetoothAPI/Materials/Black.mat
+  artifactKey: Guid(70c183e01375c4ccda2727ae833845d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Materials/Black.mat using Guid(70c183e01375c4ccda2727ae833845d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df002001f48602597a62cf1018090c3') in 0.205288 seconds
+  Import took 0.209104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/BluetoothAPI/Materials/DarkRed.mat
+  artifactKey: Guid(00cd1f87cd696467d9d31e7b59cd8b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Materials/DarkRed.mat using Guid(00cd1f87cd696467d9d31e7b59cd8b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de17eb14494d1b2140bc945e62bce63') in 0.012745 seconds
+  Import took 0.015953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/BluetoothAPI/Materials/Red.mat
+  artifactKey: Guid(6067540c39a154e83a88a02fafdf4e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Materials/Red.mat using Guid(6067540c39a154e83a88a02fafdf4e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eebcc604529a7a3ea83bd3692c3fefb') in 0.011795 seconds
+  Import took 0.015050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.143154 seconds.
+  path: Assets/BluetoothAPI/Plugins
+  artifactKey: Guid(cf2f82ac557414e67b407caf6584635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Plugins using Guid(cf2f82ac557414e67b407caf6584635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26517f252311a760c36a4ee2b0334f29') in 0.003439 seconds
+  Import took 0.016810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002482 seconds.
+  path: Assets/BluetoothAPI/Plugins
+  artifactKey: Guid(cf2f82ac557414e67b407caf6584635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Plugins using Guid(cf2f82ac557414e67b407caf6584635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26517f252311a760c36a4ee2b0334f29') in 0.002938 seconds
+  Import took 0.005718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.109759 seconds.
+  path: Assets/BluetoothAPI/Plugins/Android
+  artifactKey: Guid(d53e2e47fe3114682bdc6d0cffab508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Plugins/Android using Guid(d53e2e47fe3114682bdc6d0cffab508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee6f251560a85d404176aff9025acb1') in 0.003260 seconds
+  Import took 0.006542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/BluetoothAPI/Plugins/Android
+  artifactKey: Guid(d53e2e47fe3114682bdc6d0cffab508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Plugins/Android using Guid(d53e2e47fe3114682bdc6d0cffab508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee6f251560a85d404176aff9025acb1') in 0.003379 seconds
+  Import took 0.006686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.514714 seconds.
+  path: Assets/BluetoothAPI/Plugins/BluetoothUnityAPI.bundle
+  artifactKey: Guid(7b8b7f1d30071443992d5cf9afc6b24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Plugins/BluetoothUnityAPI.bundle using Guid(7b8b7f1d30071443992d5cf9afc6b24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5e4661cd76dfb21f0856e5bee85f4f') in 0.006022 seconds
+  Import took 0.009550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017768 seconds.
+  path: Assets/BluetoothAPI/Plugins/BluetoothUnityAPI.bundle
+  artifactKey: Guid(7b8b7f1d30071443992d5cf9afc6b24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Plugins/BluetoothUnityAPI.bundle using Guid(7b8b7f1d30071443992d5cf9afc6b24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5e4661cd76dfb21f0856e5bee85f4f') in 0.003115 seconds
+  Import took 0.005941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.520477 seconds.
+  path: Assets/BluetoothAPI/Plugins/BluetoothUnityAPI.bundle/Contents
+  artifactKey: Guid(53c0fa307ceb44e6bb0c04e9cf6b011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Plugins/BluetoothUnityAPI.bundle/Contents using Guid(53c0fa307ceb44e6bb0c04e9cf6b011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55369ae3249d05a68e885d246d99de9') in 0.003487 seconds
+  Import took 0.006339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/BluetoothAPI/Plugins/BluetoothUnityAPI.bundle/Contents
+  artifactKey: Guid(53c0fa307ceb44e6bb0c04e9cf6b011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Plugins/BluetoothUnityAPI.bundle/Contents using Guid(53c0fa307ceb44e6bb0c04e9cf6b011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55369ae3249d05a68e885d246d99de9') in 0.003088 seconds
+  Import took 0.005812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.129503 seconds.
+  path: Assets/BluetoothAPI/Plugins/ArduinoBluetoothAPI.dll
+  artifactKey: Guid(ea8c8df016d01495dbc7b8f0318bc946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Plugins/ArduinoBluetoothAPI.dll using Guid(ea8c8df016d01495dbc7b8f0318bc946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a58873a52dffa35753ccf5364ddf13b') in 0.018889 seconds
+  Import took 0.022834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.142478 seconds.
+  path: Assets/BluetoothAPI/Scenes
+  artifactKey: Guid(2b76c1399bb9647119a0012d721b46c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Scenes using Guid(2b76c1399bb9647119a0012d721b46c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44eca82be234f0e37d8b0ec0d318926') in 0.003492 seconds
+  Import took 0.006910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000900 seconds.
+  path: Assets/BluetoothAPI/Scenes
+  artifactKey: Guid(2b76c1399bb9647119a0012d721b46c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Scenes using Guid(2b76c1399bb9647119a0012d721b46c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44eca82be234f0e37d8b0ec0d318926') in 0.002888 seconds
+  Import took 0.005927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.254378 seconds.
+  path: Assets/BluetoothAPI/Scripts
+  artifactKey: Guid(c6851ebcb256a4e9d81792c27c58e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Scripts using Guid(c6851ebcb256a4e9d81792c27c58e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86bebef92d7b84435edaa06665653cb') in 0.003604 seconds
+  Import took 0.006628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010271 seconds.
+  path: Assets/BluetoothAPI/Scripts
+  artifactKey: Guid(c6851ebcb256a4e9d81792c27c58e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Scripts using Guid(c6851ebcb256a4e9d81792c27c58e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86bebef92d7b84435edaa06665653cb') in 0.003619 seconds
+  Import took 0.006565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.195078 seconds.
+  path: Assets/BluetoothAPI/Samples/BLE
+  artifactKey: Guid(ad0406c9e8f96422aa5782acc0ba3ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/BLE using Guid(ad0406c9e8f96422aa5782acc0ba3ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0313a813b3b2d93f9d0f0d4fd346fc43') in 0.003837 seconds
+  Import took 0.007038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003466 seconds.
+  path: Assets/BluetoothAPI/Samples/BLE
+  artifactKey: Guid(ad0406c9e8f96422aa5782acc0ba3ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/BLE using Guid(ad0406c9e8f96422aa5782acc0ba3ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0313a813b3b2d93f9d0f0d4fd346fc43') in 0.003497 seconds
+  Import took 0.006719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.363496 seconds.
+  path: Assets/BluetoothAPI/Samples/BLE/BLE.unity
+  artifactKey: Guid(a247264e1d3fa411eadfb3bd8e7f6df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/BLE/BLE.unity using Guid(a247264e1d3fa411eadfb3bd8e7f6df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15145aaef63ce2b4b07b83923d0e0cb5') in 0.004283 seconds
+  Import took 0.007368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.173953 seconds.
+  path: Assets/BluetoothAPI/Samples/BLE/BLE.cs
+  artifactKey: Guid(d339451d6cf904f85871eebb23b022db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/BLE/BLE.cs using Guid(d339451d6cf904f85871eebb23b022db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0e744b8bc10a04007e3dadbb33de5d') in 0.003348 seconds
   Import took 0.006774 seconds .
 
 ========================================================================
+Received Import Request.
+  Time since last request: 0.002339 seconds.
+  path: Assets/BluetoothAPI/Samples/BLE/BLE.cs
+  artifactKey: Guid(d339451d6cf904f85871eebb23b022db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/BLE/BLE.cs using Guid(d339451d6cf904f85871eebb23b022db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0e744b8bc10a04007e3dadbb33de5d') in 0.003311 seconds
+  Import took 0.006204 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004071 seconds.
+Registered in 0.005255 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.894 seconds
+- Completed reload, in  1.034 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.9 MB.
-System memory in use after: 95.1 MB.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2543.
-Total: 1.828100 ms (FindLiveObjects: 0.177700 ms CreateObjectMapping: 0.077100 ms MarkObjects: 1.558600 ms  DeleteObjects: 0.014000 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2613.
+Total: 2.074900 ms (FindLiveObjects: 0.215600 ms CreateObjectMapping: 0.075900 ms MarkObjects: 1.733800 ms  DeleteObjects: 0.047600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003866 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.0 MB.
-System memory in use after: 95.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2547.
-Total: 1.981300 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.080300 ms MarkObjects: 1.704600 ms  DeleteObjects: 0.014700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.039763 seconds.
-  path: Assets/Plugins/Android/unityandroidbluetoothlelib.jar
-  artifactKey: Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android/unityandroidbluetoothlelib.jar using Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cfb35ece81964ce631e9ed954e4f2d') in 0.017492 seconds
-  Import took 0.020934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022481 seconds.
-  path: Assets/Plugins/Android/unityandroidbluetoothlelib.jar
-  artifactKey: Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android/unityandroidbluetoothlelib.jar using Guid(f158ceee465c745bc89002ae57bc033e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cfb35ece81964ce631e9ed954e4f2d') in 0.004006 seconds
-  Import took 0.007217 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003760 seconds.
+Registered in 0.007588 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.933 seconds
+- Completed reload, in  1.108 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.0 MB.
-System memory in use after: 95.1 MB.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2551.
-Total: 1.811100 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.080700 ms MarkObjects: 1.525200 ms  DeleteObjects: 0.015800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 93.241301 seconds.
-  path: Assets/Shatalmic/Documentation
-  artifactKey: Guid(e909e63cd2d08421b8eb20bd0f6bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Documentation using Guid(e909e63cd2d08421b8eb20bd0f6bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdd3aff324573b7ab6ec567e1a99464') in 0.007001 seconds
-  Import took 0.010178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000589 seconds.
-  path: Assets/Shatalmic/Documentation
-  artifactKey: Guid(e909e63cd2d08421b8eb20bd0f6bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Documentation using Guid(e909e63cd2d08421b8eb20bd0f6bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdd3aff324573b7ab6ec567e1a99464') in 0.003409 seconds
-  Import took 0.006243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.167080 seconds.
-  path: Assets/Shatalmic/Documentation/Unity Bluetooth LE Plugin for Android.pdf
-  artifactKey: Guid(9d0ae6162b1584e1c831a59e1ca00807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Documentation/Unity Bluetooth LE Plugin for Android.pdf using Guid(9d0ae6162b1584e1c831a59e1ca00807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e40f9815d9d9ee1f68dab78773f6a7a') in 0.015661 seconds
-  Import took 0.018749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.184925 seconds.
-  path: Assets/Shatalmic/Documentation/Unity Bluetooth LE Plugin for iOS.pdf
-  artifactKey: Guid(6afd67adfd6b847968ad237eddbd5f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Documentation/Unity Bluetooth LE Plugin for iOS.pdf using Guid(6afd67adfd6b847968ad237eddbd5f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd2a35f60ed44ff444f455828e45669') in 0.004553 seconds
-  Import took 0.007808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.361407 seconds.
-  path: Assets/Plugins/BluetoothLEOSX.bundle
-  artifactKey: Guid(5383f7d08256547f6b36ee834b840062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/BluetoothLEOSX.bundle using Guid(5383f7d08256547f6b36ee834b840062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfdc89556f6e954e7a0a965c4f78871') in 0.007518 seconds
-  Import took 0.010644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042773 seconds.
-  path: Assets/Plugins/BluetoothLEOSX.bundle
-  artifactKey: Guid(5383f7d08256547f6b36ee834b840062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/BluetoothLEOSX.bundle using Guid(5383f7d08256547f6b36ee834b840062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfdc89556f6e954e7a0a965c4f78871') in 0.004102 seconds
-  Import took 0.007515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.778612 seconds.
-  path: Assets/Plugins/BluetoothLEOSX.bundle/Contents
-  artifactKey: Guid(34c7c97d38c834839be439bcf96a0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/BluetoothLEOSX.bundle/Contents using Guid(34c7c97d38c834839be439bcf96a0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b258eba6e1d8198d5a776349ef9adf4') in 0.003973 seconds
-  Import took 0.007262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001823 seconds.
-  path: Assets/Plugins/BluetoothLEOSX.bundle/Contents
-  artifactKey: Guid(34c7c97d38c834839be439bcf96a0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/BluetoothLEOSX.bundle/Contents using Guid(34c7c97d38c834839be439bcf96a0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b258eba6e1d8198d5a776349ef9adf4') in 0.003181 seconds
-  Import took 0.006131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.864499 seconds.
-  path: Assets/Plugins/BluetoothLEOSX.bundle/Contents/_CodeSignature
-  artifactKey: Guid(673293518de2c4fbf913749ebdb36dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/BluetoothLEOSX.bundle/Contents/_CodeSignature using Guid(673293518de2c4fbf913749ebdb36dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f258fce3bce05fdc5ee7f075d444b2d') in 0.003975 seconds
-  Import took 0.006876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008685 seconds.
-  path: Assets/Plugins/BluetoothLEOSX.bundle/Contents/_CodeSignature
-  artifactKey: Guid(673293518de2c4fbf913749ebdb36dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/BluetoothLEOSX.bundle/Contents/_CodeSignature using Guid(673293518de2c4fbf913749ebdb36dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f258fce3bce05fdc5ee7f075d444b2d') in 0.002863 seconds
-  Import took 0.005558 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2617.
+Total: 2.732800 ms (FindLiveObjects: 0.547900 ms CreateObjectMapping: 0.156700 ms MarkObjects: 1.985100 ms  DeleteObjects: 0.019100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003685 seconds.
+Registered in 0.005343 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
+- Completed reload, in  0.964 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.0 MB.
-System memory in use after: 95.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 2.159400 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.076800 ms MarkObjects: 1.869900 ms  DeleteObjects: 0.015200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 642.093857 seconds.
-  path: Assets/Shatalmic/Editor
-  artifactKey: Guid(87247c18c42564aceaf454206a3ef873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Editor using Guid(87247c18c42564aceaf454206a3ef873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae58e8dc524b58c9c1798ccf582c926') in 0.006489 seconds
-  Import took 0.009748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005629 seconds.
-  path: Assets/Shatalmic/Editor
-  artifactKey: Guid(87247c18c42564aceaf454206a3ef873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shatalmic/Editor using Guid(87247c18c42564aceaf454206a3ef873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae58e8dc524b58c9c1798ccf582c926') in 0.002630 seconds
-  Import took 0.005410 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003539 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.0 MB.
-System memory in use after: 95.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2560.
-Total: 2.171600 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.068000 ms MarkObjects: 1.804700 ms  DeleteObjects: 0.035300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003780 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.0 MB.
-System memory in use after: 95.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2564.
-Total: 1.915100 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.667100 ms  DeleteObjects: 0.014000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003500 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.1 MB.
-System memory in use after: 95.2 MB.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2568.
-Total: 1.969500 ms (FindLiveObjects: 0.162200 ms CreateObjectMapping: 0.068100 ms MarkObjects: 1.725800 ms  DeleteObjects: 0.012600 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2621.
+Total: 2.089800 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.074200 ms MarkObjects: 1.807800 ms  DeleteObjects: 0.019100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2625.
+Total: 2.049600 ms (FindLiveObjects: 0.196300 ms CreateObjectMapping: 0.080600 ms MarkObjects: 1.755000 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005068 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2629.
+Total: 2.583500 ms (FindLiveObjects: 0.277400 ms CreateObjectMapping: 0.104200 ms MarkObjects: 2.175200 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 2.126500 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.081200 ms MarkObjects: 1.820600 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4039.345260 seconds.
+  path: Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs
+  artifactKey: Guid(762bc68ba8edb4cdb84f35854c9a65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs using Guid(762bc68ba8edb4cdb84f35854c9a65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66030322131700f127cc4793f3cde47') in 0.006517 seconds
+  Import took 0.010878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002551 seconds.
+  path: Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs
+  artifactKey: Guid(762bc68ba8edb4cdb84f35854c9a65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs using Guid(762bc68ba8edb4cdb84f35854c9a65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66030322131700f127cc4793f3cde47') in 0.003756 seconds
+  Import took 0.007691 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2637.
+Total: 2.387300 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.113900 ms MarkObjects: 1.891600 ms  DeleteObjects: 0.039900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 2.055800 ms (FindLiveObjects: 0.272500 ms CreateObjectMapping: 0.086500 ms MarkObjects: 1.678500 ms  DeleteObjects: 0.017400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

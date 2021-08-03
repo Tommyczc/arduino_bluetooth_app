@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 112
+  controlID: 66
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +151,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 44
+  controlID: 92
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 45
+  controlID: 93
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,22 +344,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Plugins/Android
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Plugins/Android
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Github_personal_file\arduino_bluetooth_app\Arduino_Bluetooth_Demo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: b44c0000
-    m_LastClickedID: 19636
-    m_ExpandedIDs: 00000000e40a00008e42000092420000964200009e4200008246000000ca9a3b
+    m_SelectedIDs: 98420000
+    m_LastClickedID: 17048
+    m_ExpandedIDs: 00000000e80a0000984200009c4200009e420000e8530000685400008654000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008e420000
+    m_ExpandedIDs: 00000000e80a0000984200009a4200009c4200009e420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,9 +508,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 00130000
+      m_SelectedIDs: b0080000
       m_LastClickedID: 0
-      m_ExpandedIDs: c6e6ffff10eeffff40fbffff10420000204200004242000074530000a2530000b0560000dc560000ec560000
+      m_ExpandedIDs: f6e2ffff6ae3ffff3ee4ffffe2e4ffff32e5ffff86e6ffff42e7ffff64eaffff10ebffffe8ebffff6aeeffff6af1ffff9ef1fffff0f1ffff48f2ffffd2f4ffff4ef6ffff6cf6ffff40fbffff365b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -570,9 +570,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 16.847885, y: 107.23656, z: -379.62128}
+    m_Target: {x: 582.4273, y: 150.11768, z: -67911.516}
     speed: 2
-    m_Value: {x: 61.283924, y: 121.33658, z: -377.06335}
+    m_Value: {x: 582.4273, y: 150.11768, z: -67911.516}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -623,9 +623,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 594.0069
+    m_Target: 321.88455
     speed: 2
-    m_Value: 568.4277
+    m_Value: 321.88455
   m_Ortho:
     m_Target: 1
     speed: 2
