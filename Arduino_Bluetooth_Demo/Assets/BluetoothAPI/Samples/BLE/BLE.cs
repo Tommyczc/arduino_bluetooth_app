@@ -8,7 +8,7 @@ public class BLE : MonoBehaviour
 {
     private BluetoothHelper helper;
     private static string serviceUUID = "FFA0";
-    private static string characteristicUUID = "FFA1";
+    private static string characteristicUUID = "FFA2";
     private BluetoothHelperCharacteristic bluetoothHelperCharacteristic;
     void Start()
     {

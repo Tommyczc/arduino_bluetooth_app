@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Connect_scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/BluetoothAPI/Samples/2 Scenes/Scene 1.unity
-    guid: fa8830eca63de4e79a5aa48bdee09ad4
-  - enabled: 1
-    path: Assets/BluetoothAPI/Samples/2 Scenes/Scene 2.unity
-    guid: a2f5739327298406989dc4c695d5d57e
+    path: Assets/Scenes/Control_scene.unity
+    guid: ab71a868e268de6459e6a91a1a15195f
   m_configObjects: {}
