@@ -12,16 +12,15 @@ public class Bluetooth_Connection : MonoBehaviour
     public Button disconnect;
     public Button nextpage;
     public Text state;
+    public static string the_device;
 
     // Start is called before the first frame update
     void Start()
     {
-        
         m_helper = BluetoothHelper.GetInstance();
         m_helper.OnConnected += OnConnected;
         m_helper.OnConnectionFailed += OnConnectionFailed;
-        m_helper.OnDataReceived += OnDataReceived;
-        m_helper.setFixedLengthBasedStream(1); //data is received byte by byte
+        m_helper.setTerminatorBasedStream("\n");
         device_name.text = null;
     }
 
@@ -31,12 +30,13 @@ public class Bluetooth_Connection : MonoBehaviour
         {
             m_helper.setDeviceName(device_name.text);
             m_helper.Connect();
+            the_device = device_name.text;
         }
     }
 
     void OnConnected(BluetoothHelper helper)
     {
-        m_helper.StartListening();
+        //m_helper.StartListening();
         subscribed.gameObject.SetActive(false);
         disconnect.gameObject.SetActive(true);
         nextpage.gameObject.SetActive(true);
@@ -49,13 +49,6 @@ public class Bluetooth_Connection : MonoBehaviour
         subscribed.gameObject.SetActive(true);
         disconnect.gameObject.SetActive(false);
         nextpage.gameObject.SetActive(false);
-    }
-
-    void OnDataReceived(BluetoothHelper helper)
-    {
-        string msg = helper.Read();
-
-        
     }
 
     public void disconnect_function() {
