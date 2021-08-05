@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using ArduinoBluetoothAPI;
@@ -8,10 +9,12 @@ public class Bluetooth_control : MonoBehaviour
 {
     private BluetoothHelper helper;
     private string device_name;
+    private float current_Position;
     public Slider slider_camera;
     public static bool hex_or_string = true; //hex:true, string false
     public Text recive;
     public Text device;
+    public Text the_num;
     public InputField send_message;
     public Button send;
     public Button up;
@@ -48,6 +51,11 @@ public class Bluetooth_control : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Screen.orientation = ScreenOrientation.AutoRotation;
+        Screen.autorotateToLandscapeLeft = true;
+        Screen.autorotateToLandscapeRight = true;
+        Screen.autorotateToPortrait = false;
+        Screen.autorotateToPortraitUpsideDown = false;
         helper = BluetoothHelper.GetInstance();
         helper.OnDataReceived += OnDataReceived;
         helper.OnConnectionFailed += OnConnectionFailed;
@@ -55,22 +63,35 @@ public class Bluetooth_control : MonoBehaviour
         this.device_name = Bluetooth_Connection.the_device;
         device.text="Device: "+ Bluetooth_Connection.the_device;
         helper.StartListening();
-        slider_camera.value = 90;
+        slider_camera.value = 6;
+        /*
         slider_camera.onValueChanged.AddListener((value) =>
         {
-            value = value / 15;
-            Debug.Log(slider_camera.name + "的Value值为" + value);
+            int num = (int)value;
+            change_num(num*15);
+            Debug.Log(slider_camera.name + "的Value值为" + num);
             byte[] final = new byte[2];
             final[0] = 0x02;
-            byte[] tempdecBytes = BitConverter.GetBytes(value);
+            byte[] tempdecBytes = BitConverter.GetBytes(num);
             final[1] = tempdecBytes[0];
             sendData_hex(final);
-
-        });
+            StartCoroutine(DoSomeThingInDelay());
+        }) ;
+        */
+    }
+    /*
+    IEnumerator DoSomeThingInDelay() {
+        Debug.Log("waiting");
+        yield return new WaitForSeconds(5.0f); //等待3秒
+    }
+    */
+    public void reset_button_function() {
+        slider_camera.value = 6;
+        rotate_camera(6.0f);
     }
 
-    public void reset_button_function() {
-        slider_camera.value = 90;
+    private void change_num(int num) {
+        the_num.text = num.ToString();
     }
 
     public void OnDataReceived(BluetoothHelper helper) {
@@ -100,9 +121,9 @@ public class Bluetooth_control : MonoBehaviour
         //string final = "";
         if (msg[0] == 0x00)
         {
-            Debug.Log("u are control the car");
+            Debug.Log("U are controling the car");
             switch (msg[1]) {
-                case 0x00: 
+                case 0x00:
                     recive.text = "Message: Go forward!";
                     break;
 
@@ -124,7 +145,16 @@ public class Bluetooth_control : MonoBehaviour
 
             }
         }
-        else if (msg[0] == 0x01) {
+
+        else if (msg[0]==0x01) {
+            Debug.Log("U press a number");
+            int ten = msg[1] / 16;
+            int sing = msg[1] % 16;
+            int total = ten * 16 + sing;
+            recive.text = "Message: Detect distance: " + total.ToString(); ;
+        }
+
+        else if (msg[0] == 0x02) {
             Debug.Log("U are  control the camera");
             int temp = (short)(msg[1]);
             string t_temp = temp.ToString();
@@ -149,6 +179,10 @@ public class Bluetooth_control : MonoBehaviour
         }
     }
 
+    public void setting_button_function() {
+        Debug.Log("u press setting");
+    }
+
     public void disconnect() {
         helper.Disconnect();
     }
@@ -163,10 +197,26 @@ public class Bluetooth_control : MonoBehaviour
         helper.SendData(d);
     }
 
+    private void rotate_camera(float current) {
+        int num = (int)current;
+        change_num(num * 15);
+        Debug.Log(slider_camera.name + "的Value值为" + num);
+        byte[] final = new byte[2];
+        final[0] = 0x02;
+        byte[] tempdecBytes = BitConverter.GetBytes(num);
+        final[1] = tempdecBytes[0];
+        sendData_hex(final);
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (!helper.isConnected()) { SceneManager.LoadScene("Connect_scene"); }
+
+        if (slider_camera.value != current_Position) {
+            current_Position = slider_camera.value;
+            rotate_camera(current_Position);
+        }
     }
 
     void OnDestroy()
@@ -296,5 +346,11 @@ public class Bluetooth_control : MonoBehaviour
         {
             sendData_string(five_string);
         }
+    }
+
+
+    void Awake()
+    {
+        Screen.orientation = ScreenOrientation.LandscapeRight;
     }
 }

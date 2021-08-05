@@ -17,6 +17,11 @@ public class Bluetooth_Connection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Screen.orientation = ScreenOrientation.AutoRotation;
+        Screen.autorotateToLandscapeLeft = true;
+        Screen.autorotateToLandscapeRight = true;
+        Screen.autorotateToPortrait = false;
+        Screen.autorotateToPortraitUpsideDown = false;
         m_helper = BluetoothHelper.GetInstance();
         m_helper.OnConnected += OnConnected;
         m_helper.OnConnectionFailed += OnConnectionFailed;
@@ -67,5 +72,10 @@ public class Bluetooth_Connection : MonoBehaviour
     void Update()
     {
 
+    }
+
+    void Awake()
+    {
+        Screen.orientation = ScreenOrientation.LandscapeRight;
     }
 }
