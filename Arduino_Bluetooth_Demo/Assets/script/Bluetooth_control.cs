@@ -26,16 +26,16 @@ public class Bluetooth_control : MonoBehaviour
     public Button three;
     public Button four;
     public Button five;
-    public byte[] up_hex = { 0x00, 0x01 };
-    public byte[] down_hex= { 0x00,0x02 };
-    public byte[] right_hex = { 0x00, 0x03 };
-    public byte[] left_hex = { 0x00, 0x04 };
-    public byte[] brake_hex = { 0x00, 0x05 };
-    public byte[] one_hex = { 0x01, 0x01 };
-    public byte[] two_hex = { 0x01, 0x02 };
-    public byte[] three_hex = { 0x01, 0x03 };
-    public byte[] four_hex = { 0x01, 0x04 };
-    public byte[] five_hex = { 0x01, 0x05 };
+    public byte[] up_hex = { 0x00, 0x04 };
+    public byte[] down_hex= { 0x00,0x05 };
+    public byte[] right_hex = { 0x00, 0x06 };
+    public byte[] left_hex = { 0x00, 0x07 };
+    public byte[] brake_hex = { 0x00, 0x08 };
+    public byte[] one_hex = { 0x01, 0x04 };
+    public byte[] two_hex = { 0x01, 0x05 };
+    public byte[] three_hex = { 0x01, 0x06 };
+    public byte[] four_hex = { 0x01, 0x07 };
+    public byte[] five_hex = { 0x01, 0x08 };
     public string up_string = "A";
     public string down_string = "B";
     public string left_string = "C"; 
@@ -62,7 +62,7 @@ public class Bluetooth_control : MonoBehaviour
         helper.setFixedLengthBasedStream(2);
         this.device_name = Bluetooth_Connection.the_device;
         device.text="Device: "+ Bluetooth_Connection.the_device;
-        helper.StartListening();
+        //helper.StartListening();
         slider_camera.value = 6;
         /*
         slider_camera.onValueChanged.AddListener((value) =>
@@ -148,10 +148,7 @@ public class Bluetooth_control : MonoBehaviour
 
         else if (msg[0]==0x01) {
             Debug.Log("U press a number");
-            int ten = msg[1] / 16;
-            int sing = msg[1] % 16;
-            int total = ten * 16 + sing;
-            recive.text = "Message: Detect distance: " + total.ToString(); ;
+            
         }
 
         else if (msg[0] == 0x02) {
@@ -185,6 +182,7 @@ public class Bluetooth_control : MonoBehaviour
 
     public void disconnect() {
         helper.Disconnect();
+        Application.Quit();
     }
 
     public void sendData_hex(byte[] d)
@@ -203,7 +201,7 @@ public class Bluetooth_control : MonoBehaviour
         Debug.Log(slider_camera.name + "µÄValueÖµÎª" + num);
         byte[] final = new byte[2];
         final[0] = 0x02;
-        byte[] tempdecBytes = BitConverter.GetBytes(num);
+        byte[] tempdecBytes = BitConverter.GetBytes(num+4);
         final[1] = tempdecBytes[0];
         sendData_hex(final);
     }

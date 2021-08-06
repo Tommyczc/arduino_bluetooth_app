@@ -25,7 +25,7 @@ public class Bluetooth_Connection : MonoBehaviour
         m_helper = BluetoothHelper.GetInstance();
         m_helper.OnConnected += OnConnected;
         m_helper.OnConnectionFailed += OnConnectionFailed;
-        m_helper.setTerminatorBasedStream("\n");
+        //m_helper.setTerminatorBasedStream("\n");
         device_name.text = null;
     }
 
