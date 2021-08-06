@@ -12,8 +12,8 @@ int Left_motor_go=8;     //宸︾數鏈哄墠杩�(IN1)
 int Left_motor_back=9;     //宸︾數鏈哄悗閫�(IN2)
 int Right_motor_go=10;    // 鍙崇數鏈哄墠杩�(IN3)
 int Right_motor_back=11;    // 鍙崇數鏈哄悗閫�(IN4)
-int index=0;
-byte rec[3];
+byte index = 0;
+byte variable[40];
 
 
 int Echo = A1;  // Echo鍥炲０鑴�(P2.0)
@@ -150,126 +150,69 @@ void Distance_test()   // 閲忓嚭鍓嶆柟璺濈
   Distance = Fdistance;
 }
 
-/*
-void loop()
-{
-  while(Serial.available() > 0){
-  getstr=Serial.read(); // 
-  if(getstr=='A') 
-  { 
-    Serial.print(0x00,HEX); 
-    Serial.print(0x00,HEX); 
-    run();
-  } 
-  else if(getstr=='B'){ 
-    Serial.print(0x00,HEX); 
-    Serial.print(0x01,HEX); 
-   back(); 
-  } 
-  else if(getstr=='C'){ 
-    Serial.print(0x00,HEX); 
-    Serial.print(0x02,HEX); 
-   left();
-  } 
-  else if(getstr=='D'){ 
-    Serial.print(0x00,HEX); 
-    Serial.print(0x03,HEX); 
-   right();
-     
-  }  
-   else if(getstr=='E'){ 
-    Serial.print(0x00,HEX); 
-    Serial.print(0x04,HEX);
-   brake();  
-  }
-  else if(getstr=='1'){
-    for(int i=0; i<15;i++){
-      servopulse(servopin,180);
-    }
-    Serial.println("press 1!");
-  }
-  else if(getstr=='2'){
-    for(int i=0; i<15;i++){
-    servopulse(servopin,90);}
-    Serial.println("press 2!");
-  }
-  else if(getstr=='3'){
-    for(int i=0; i<15;i++){
-    servopulse(servopin,0);}
-    Serial.println("press 3!");
-  }
-  else { 
-    Serial.println(getstr); 
-     
-  }
-  }
-}
-*/
-void loop()
-{
-  while(Serial.available() > 0){
-    byte dat=Serial.read();
-    delay(2);
-    if(dat==0x00 || dat==0x01 || dat==0x02){
-      rec[0]=dat;index=1;
-      Serial.println(dat);
-    }
-    else{
-    rec[index]=dat;
-    index++;
-    Serial.println(dat);
-    }
-    //Serial.println(dat);
-    if(index==2){
-      index=0;
-      if(rec[0]==0x00){
-        if(rec[1]==0x04){
-          run();
-            //Serial.print(0x00,HEX); 
-            //Serial.print(0x00,HEX);
-        }
-        else if(rec[1]==0x05){
-          back();
-            //Serial.print(0x00,HEX); 
-            //Serial.print(0x01,HEX);
-        }
-        else if(rec[1]==0x06){
-          right();
-            //Serial.print(0x00,HEX); 
-            //Serial.print(0x02,HEX);
-        }
-        else if(rec[1]==0x07){
-          left();
-            //Serial.print(0x00,HEX); 
-            //Serial.print(0x03,HEX);
-        }
-        else if(rec[1]==0x08){
-          brake();
-            //Serial.print(0x00,HEX); 
-            //Serial.print(0x04,HEX);
-        }
+
+void loop() {
+  while (Serial.available() > 0) {
+    byte b = Serial.read();
+    variable[index++] = b;
+    //Serial.println(variable[0]);
+xunhuan:
+    if((variable[0] != 0x00 || variable[0] != 0x01 || variable[0] != 0x02) && index >= 3 ){
+          for(int i=0; i < index;  i++)
+          {
+            variable[i] = variable[i+1];
+           }
+            index--;
+            goto xunhuan;
       }
-      else if(rec[0]==0x01){
-        if(rec[1]==0x04){
-          Distance_test();
-          //Serial.print(0x01,HEX);
-          //Serial.print(Distance,HEX);
-        }
-        //memset(rec, 0, sizeof(rec));
-      }
-        
-      else if(rec[0]==0x02){
-          byte temp=rec[1];
-          int ten=temp/16;
-          int sing=temp%16;
-          int total=ten*16+sing-4;
-          for(int i=0; i<5; i++){
-            servopulse(servopin,total*15);
-          }
-          //memset(rec, 0, sizeof(rec));
-        }
+  if (index >= 2) {
+    Serial.println(variable[1],HEX);
+    
+    //Serial.println(variable[1]);
+    if(variable[0]==0x00 && variable[1]==0x01){
+      run();
+      //Serial.print(0x00,HEX); 
+      //Serial.print(0x00,HEX);
+    }
+    else if(variable[0]==0x00 && variable[1]==0x02){
+      back();
+      //Serial.print(0x00,HEX); 
+      //Serial.print(0x01,HEX);
+    }
+    else if(variable[0]==0x00 && variable[1]==0x03){
+      right();
+      //Serial.print(0x00,HEX); 
+      //Serial.print(0x02,HEX);
+    }
+    else if(variable[0]==0x00 && variable[1]==0x04){
+      left();
+      //Serial.print(0x00,HEX); 
+      //Serial.print(0x03,HEX);
+    }
+    else if(variable[0]==0x00 && variable[1]==0x05){
+      brake();
+      //Serial.print(0x00,HEX); 
+      //Serial.print(0x04,HEX);
+    }
+    
+    else if(variable[0]==0x01 && variablie[1]==0x01){
+      Distance_test();
+      Serial.print(0x01,HEX); 
+      Serial.print(Distance,HEX);
+    }
+    
+    else if(variable[0]==0x02){
+      byte temp=variable[1];
+      int ten=temp/16;
+      int sing=temp%16;
+      int total=ten*16+sing-4;
+      for(int i=0; i<5; i++){
+        servopulse(servopin,total*15);
       }
     }
+    index = 0;
+    }
+  }
 }
 
 

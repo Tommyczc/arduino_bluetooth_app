@@ -278,7 +278,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: c3ed06383f599a62e8659285a08b0631
+      Hash: 112b5966852ea99d3fb600717dc0d87e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bluetooth_Connection
@@ -797,4 +797,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Connect_scene.unity
   - Assets/Scenes/Control_scene.unity
   - Assets/Scenes/Setting_scene.unity
-  playerPath: D:/Github_personal_file/arduino_bluetooth_app/Packaged Android Application/blue.apk
+  playerPath: D:/Github_personal_file/arduino_bluetooth_app/Packaged Android Application/Tblue.apk
