@@ -9,8 +9,8 @@ public class Bluetooth_Connection : MonoBehaviour
     BluetoothHelper m_helper;
     public InputField device_name;
     public Button subscribed;
-    public Button disconnect;
-    public Button nextpage;
+    //public Button disconnect;
+    //public Button nextpage;
     public GameObject can;
     public Text state;
     public static string the_device;
@@ -36,6 +36,7 @@ public class Bluetooth_Connection : MonoBehaviour
             m_helper.setDeviceName(device_name.text);
             m_helper.Connect();
             the_device = device_name.text;
+            //nextpage_function();
         }
     }
 
@@ -43,26 +44,26 @@ public class Bluetooth_Connection : MonoBehaviour
     {
         //m_helper.StartListening();
         //if (subscribed.hasDestroy()) { Debug.Log("it has been destroy"); }
-        subscribed.gameObject.SetActive(false);
-        disconnect.gameObject.SetActive(true);
-        nextpage.gameObject.SetActive(true);
+        //subscribed.gameObject.SetActive(false);
+        //disconnect.gameObject.SetActive(true);
+        //nextpage.gameObject.SetActive(true);
         state.text = "connected to "+device_name.text;
     }
 
     void OnConnectionFailed(BluetoothHelper helper)
     {
         state.text="Failed to connect";
-        subscribed.gameObject.SetActive(true);
-        disconnect.gameObject.SetActive(false);
-        nextpage.gameObject.SetActive(false);
+        //subscribed.gameObject.SetActive(true);
+        //disconnect.gameObject.SetActive(false);
+        //nextpage.gameObject.SetActive(false);
     }
 
     public void disconnect_function() {
         state.text = "Disconnect";
         m_helper.Disconnect();
-        subscribed.gameObject.SetActive(true);
-        disconnect.gameObject.SetActive(false);
-        nextpage.gameObject.SetActive(false);
+        //subscribed.gameObject.SetActive(true);
+        //disconnect.gameObject.SetActive(false);
+        //nextpage.gameObject.SetActive(false);
     }
 
     public void nextpage_function() {
@@ -72,7 +73,7 @@ public class Bluetooth_Connection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (m_helper.isConnected()) { SceneManager.LoadScene("Control_scene"); }
     }
 
     void Awake()
