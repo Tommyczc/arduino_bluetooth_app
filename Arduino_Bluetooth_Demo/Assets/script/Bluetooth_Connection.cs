@@ -11,6 +11,7 @@ public class Bluetooth_Connection : MonoBehaviour
     public Button subscribed;
     public Button disconnect;
     public Button nextpage;
+    public GameObject can;
     public Text state;
     public static string the_device;
 
@@ -25,7 +26,11 @@ public class Bluetooth_Connection : MonoBehaviour
         m_helper = BluetoothHelper.GetInstance();
         m_helper.OnConnected += OnConnected;
         m_helper.OnConnectionFailed += OnConnectionFailed;
+<<<<<<< HEAD
         //m_helper.setTerminatorBasedStream("\n");
+=======
+        //m_helper.EnableBluetooth(true);
+>>>>>>> main
         device_name.text = null;
     }
 
@@ -42,6 +47,7 @@ public class Bluetooth_Connection : MonoBehaviour
     void OnConnected(BluetoothHelper helper)
     {
         //m_helper.StartListening();
+        //if (subscribed.hasDestroy()) { Debug.Log("it has been destroy"); }
         subscribed.gameObject.SetActive(false);
         disconnect.gameObject.SetActive(true);
         nextpage.gameObject.SetActive(true);
@@ -77,5 +83,6 @@ public class Bluetooth_Connection : MonoBehaviour
     void Awake()
     {
         Screen.orientation = ScreenOrientation.LandscapeRight;
+        //DontDestroyOnLoad(can);
     }
 }

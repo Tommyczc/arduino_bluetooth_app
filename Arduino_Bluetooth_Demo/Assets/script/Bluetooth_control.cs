@@ -64,6 +64,7 @@ public class Bluetooth_control : MonoBehaviour
         device.text="Device: "+ Bluetooth_Connection.the_device;
         //helper.StartListening();
         slider_camera.value = 6;
+
         /*
         slider_camera.onValueChanged.AddListener((value) =>
         {
@@ -152,10 +153,7 @@ public class Bluetooth_control : MonoBehaviour
         }
 
         else if (msg[0] == 0x02) {
-            Debug.Log("U are  control the camera");
-            int temp = (short)(msg[1]);
-            string t_temp = temp.ToString();
-            recive.text = "Message: Detect distance: " + t_temp;
+            
         }
     }
 
